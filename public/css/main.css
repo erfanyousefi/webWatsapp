@@ -1,0 +1,72 @@
+body {
+    overflow: hidden;
+    background-color: #E5DDD5;
+}
+
+#userImageOnMenu {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.chatlist {
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+
+.chatroom {
+    height: 100vh;
+    background: url('./../image/bg.png');
+    opacity: 0.2;
+}
+
+#chatImgInList {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.chatName {}
+
+.chatListItem {
+    text-decoration: none;
+    color: #777
+}
+
+.chatlist {
+    padding: 0px;
+}
+
+.chatlist ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.chatlist ul li {
+    border-bottom: 1px solid #999999;
+    padding: 7px;
+    padding-left: 30px;
+    transition: all 500ms ease-in-out;
+}
+
+.chatlist ul li:hover {
+    background-color: #E5DDD5;
+    transition: all 500ms ease-in-out;
+}
+
+.chatlist ul li:hover a {
+    color: #aaa
+}
+
+.messageBoxInput {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    ;
+}
+
+.messageBoxInput input {
+    width: 90%;
+    background-color: #FFFFFF;
+    opacity: 1;
+}
